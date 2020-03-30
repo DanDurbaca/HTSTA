@@ -1,3 +1,10 @@
 #redPara {
     background-color: red;
 }
+
+/*
+https://stackoverflow.com/questions/3462298/select-every-nth-element-in-css
+*/
+li:nth-child(2n){
+    background-color: aqua;
+}
